@@ -1,0 +1,478 @@
+*{
+    box-sizing: border-boxs;
+    padding: 0;
+    margin:0;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.ul{
+    display: flex;
+    gap: 3rem;
+}
+
+.ul > a {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.button{
+    padding: 0.5rem;
+    border-radius: 2rem;
+    background-color: rgb(196, 138, 196);
+    color:white;
+}
+
+.section{
+      display: flex;  
+    justify-content: center;
+    background-image: url("abc.jpeg"); 
+    background-size: cover;
+    height: 70vh; 
+}
+
+.section  h1{
+    color:black;
+    font-size: 3rem;
+}
+
+.section >h3{
+    color:black;
+}
+
+.section p{
+    color: white;
+    font-size:1.5rem ;
+}
+
+.ul > a li{
+font-size: 2rem;
+font-weight: 700;
+}
+
+.header >h1{
+    margin-left: -30rem;
+}
+
+.section h3{
+    color:red;
+    font-size: 2rem;
+}
+
+
+.img{
+    height:300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+
+.ul > a :hover{
+    background-color: rgb(155, 83, 155);
+    color:white ;
+    border-radius: 0.5rem;
+}
+
+.section1{
+    position: absolute;
+    left: 10rem;
+    top: 13rem;
+    font-size: 1.5rem;
+}
+
+.section2{
+    position: absolute;
+    left: 45rem;
+    top: 10rem;
+}
+
+span{
+    color: rgb(231, 55, 84);
+    font-family: cursive;
+}
+
+.button1 > button {
+    padding: 0.3rem;
+    border-radius: 2rem;
+    font-size:1.5rem ;
+    background-color:rgb(219, 93, 93);
+    color: white;
+    padding:0.5rem;
+}
+
+.button1 >  a > button {
+    padding: 0.3rem;
+    border-radius: 2rem;
+    font-size:0.7rem ;
+    background-color:rgb(219, 93, 93);
+    color: white;
+   
+}
+
+.button1{
+    padding-top: 2rem;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img1{
+    height: 300px;
+    width: 250px;
+    border-radius: 1rem;
+    transition: all 2s ease-in-out;
+}
+    
+
+.img1:hover{
+    transform: scale(height);
+    height:350px ;
+    border-radius: 20px 60px 20px;
+}
+
+.about{
+    color:rgb(126, 35, 126) ;
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "sofia" sans-serif;
+    text-decoration-color: rgb(105, 13, 105);
+}
+
+.about1{
+    background-color: rgb(230, 181, 230);
+    height: 86vh;
+}
+
+.info{
+    line-height:1.5rem ;
+    font-size: 1.2rem;
+}
+
+.cv{
+    background-color: rgb(173, 116, 226);
+    color: white;
+    margin-top:2rem;
+    padding: 0.5rem;
+    border-radius:0.2rem ;
+}
+
+.skills-menu{
+    display: flex  ;
+    gap: 2rem;
+    padding: 4.9rem;
+}
+
+.skills-menu > div{
+    gap: 2rem;
+    margin: 0.5rem;
+    margin-left: 2rem;
+    height: 355x;
+    width: 250px;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(138, 39, 138);
+    transition: all 1s ease;
+}
+
+.skills-menu > div:hover{
+    height: 200px;
+}
+
+.skills-img{
+    height: 200px;
+    width: 250px;
+    border-top-right-radius: 1.5rem;
+}
+
+.skills{
+    color:rgb(122, 17, 122) ;
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "sofia" sans-serif;
+    text-decoration-color: rgb(105, 13, 105);
+}
+
+.skills-menu > div p{
+    color: white;
+    padding: 0.1rem;
+    font-family:sofia sans-serif ;
+    font-size: 1.5rem;
+
+}
+
+.skills-menu > div p:hover{
+    color: rgb(51, 3, 51);
+}
+
+.Services{
+    color:rgb(179, 77, 179) ;
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "sofia" sans-serif;
+    text-decoration-color: rgb(105, 13, 105);
+}
+
+.services-img{
+    height: 200px;
+    width: 250px;
+}
+
+.contact-section{
+    background-color: black;
+    border-top-right-radius:20rem;
+    border-top-left-radius:20rem ;
+    padding: 5rem;
+    color: white;
+    font-size:1.5rem ;
+    text-align: center;
+}
+
+.first{
+    height:25px;
+    width: 250px;
+}
+
+.last{
+    height:25px;
+    width: 250px;
+}
+
+.submit{
+   padding: 0.4rem;
+}
+
+/* media query starts here */
+ 
+@media (max-width:850px) {
+    .header{
+        flex-direction: row;
+        align-items: flex-start;
+        align-items: center;
+        height: 60px;
+    }
+
+    .logo-image{
+        height: 40px;
+        width: 40px;
+    }
+
+    .ul{
+        flex-direction: row;
+        gap: 0.5rem;
+        margin-left: 1.5rem;
+        align-items:center;
+    }
+
+    .ul > a >li{
+        font-size: 11px;
+    }
+
+    .ul > a >button{
+        padding: 0.1rem;
+        border-radius: 2rem;
+        margin-right:0.5rem;
+    }
+
+     .section{
+         /* display: block;  */
+        justify-content: center;
+        background-color:rgb(224, 107, 224);
+        background-image: url("abc.jpeg");
+        background-size: cover;
+         height: 20vh; 
+    } 
+
+    .section h1{
+        padding-right: 10rem;
+        color:black;
+        font-size:0.6rem;
+        text-align: center;
+        margin-left: 8px;
+    }
+
+    .section h3{
+        color:red;
+        font-size: 0.5rem;
+    }
+
+    .section1{
+        position: absolute;
+        left: 1rem;
+        top: 6rem;
+        font-size:1.5 rem;
+    }
+
+    .section p{
+        color: white;
+        font-size:0.6rem ;
+    }
+
+    .section2{
+        position: absolute;
+        left: 14rem;
+        top: 5.7rem;
+    }
+
+    .img{
+        height:65px;
+        width: 65px;
+        border-radius: 50%;
+        margin-right:3rem;
+    }
+
+   
+
+    .button1 > button {
+        padding: 0.3rem;
+        border-radius: 2rem;
+        font-size:1rem ;
+        background-color:rgb(219, 93, 93);
+        color: white;
+        padding:0.5rem;
+        height: 2px;
+    }
+    
+
+    .about{
+        color:rgb(126, 35, 126) ;
+        font-size: 1rem;
+        font-weight: 800;
+        text-decoration: underline;
+        text-align: center;
+        font-family: "sofia" sans-serif;
+        text-decoration-color: rgb(105, 13, 105);
+    }
+    
+     .img1{
+        height: 160px;
+        width: 190px;
+        /* border-radius: 1rem; */
+        margin-left: 5rem;
+    } 
+
+    .img1:hover{
+        transform: none;
+        border-radius: none;
+        height: 100px;
+        width: 100px;
+        /* border-radius: 1rem; */
+        /* margin-left: 5rem; */
+    }
+
+   
+     .info{
+        line-height:1rem ;
+        font-size: 0.8rem;
+        margin-left: 1.5rem;
+    } 
+
+    .container1{
+        display: block;
+        justify-content: space-around;
+    }
+
+    .cv{
+        background-color: rgb(173, 116, 226);
+        color: white;
+        margin-top:1rem;
+        padding: 0.2rem;
+        border-radius:0.2rem ;
+        align-items: center;
+        font-size: 11px;
+        margin-left: 1.5rem;
+       
+    }
+
+    .skills{
+        color:rgb(122, 17, 122) ;
+        font-size: 1rem;
+        font-weight: 800;
+        text-decoration: underline;
+        text-align: center;
+        font-family: "sofia" sans-serif;
+        text-decoration-color: rgb(105, 13, 105);
+    }
+
+    .skills-menu{
+        display: block  ;
+        gap: 2rem;
+        padding: 4.9rem;
+        align-items: center;
+    }
+
+    .skills-img{
+        height: 80px;
+        width: 60vw;
+        border-top-right-radius: 1.5rem;
+    }
+
+
+    .skills-menu > div p{
+        color: white;
+        padding: 0.6rem;
+        font-family:sofia sans-serif ;
+        font-size: 15px;
+    
+    }
+
+    .skills-menu > div{
+        gap: 50rem;
+        margin-right: 20rem;
+        margin-top: 2rem;
+        margin-left:-0.9rem;
+        height: 30vh;
+        width:60vw;
+        border-radius: 2rem;
+        box-shadow: black 0px 3px 6px,black 0px 3px 6px;
+        background-color: rgb(138, 39, 138);
+       
+    }
+    
+    .skills-menu > div h1{
+        font-size: 15px;
+        padding: 0.2rem;
+        text-align: center;
+    }
+
+    .Services{
+        color:rgb(179, 77, 179) ;
+        font-size: 1rem;
+        font-weight: 800;
+        text-decoration: underline;
+        text-align: center;
+        font-family: "sofia" sans-serif;
+        text-decoration-color: rgb(105, 13, 105);
+    }
+
+    .contact-section{
+        background-color: black;
+        border-top-right-radius:17rem;
+        border-top-left-radius:17rem ;
+        padding: 1.9rem;
+        color: white;
+        font-size:1rem ;
+        text-align: center;
+        margin: 1.6rem;
+    }
+
+    .submit{
+      
+    }
+}

@@ -1,0 +1,16 @@
+.readimg{
+    display: flex;  
+    justify-content: center;
+    background-image: url(coco.jpg) ;
+    background-size: cover;
+    height: 20vh; 
+    width: 20vw;
+}
+
+.info{
+    padding-left: 2rem;
+}
+
+.about{
+    background-color: rgb(243, 157, 243);
+}
